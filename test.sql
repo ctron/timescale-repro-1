@@ -1,0 +1,1 @@
+\copy temperatures (time, device_id, temperature) from PROGRAM 'mlr --csv cut -f time,device_id,temperature timescale_test.csv' WITH (FORMAT CSV, HEADER)
